@@ -8,7 +8,6 @@
 body{
     height: 100vh;
     width: 100%;
-    background-color: #121212;
 }
 
 .navbar{
@@ -16,20 +15,24 @@ body{
     justify-content: space-between;
     align-items: center;
     height:80px;
-    margin: 0px 100px;
+    background: linear-gradient(180deg, #0F0F1A, #2E0854);
 }
 
 
 .logo{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.3rem;
-    color: rgba(251, 105, 105);
+
 }
 
+.logo img{
+    height: auto;
+    max-width:25px;
+}
 
 .nav-handle {   
     display: flex;
-    gap: 30px;
+    gap: 15px;
     font-size: 1.1em;
 }
 
@@ -41,7 +44,7 @@ body{
 }
 
 .nav-handle a:hover{
-    color:rgb(231, 105, 105);
+    color:  #D4AF37;
     cursor: pointer;
 }
 
@@ -49,12 +52,12 @@ body{
     
     content: "";
     position: absolute;
-    background-color: rgb(249, 2, 2);
+    background-color:#4B0082;
+    left: 0;
     height: 2px;
     width: 0;
-    left: 0;
     bottom:-5px;
-    transition: 0.3s ease;
+    transition: 0.4s ease;
 }
 
 
@@ -64,26 +67,63 @@ body{
   width: 100%;
 }
 
+
+/* Child nav */
+
+.child-nav{
+    height:40px;
+    width: auto;
+    background-color: #4a067a;
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 40px;
+}
+
+.child{
+    display: flex;
+    color: white;
+    margin: 10px 0px;
+}
+
+
+.child-2{
+    display: flex;
+    color: white;
+    margin: 10px 0px;
+}
+
+
+
+/* banner section */
+
+.jersey{
+    margin: 60px 0px;
+}
+
+.jersey img{
+    height: auto;
+    margin:0px 20px;
+    width: 90%;
+}
+
 @media (max-width:550px) {
 
   .navbar {
     display: flex;
     justify-content: space-evenly;
-    margin: 0 15px;
     gap: 1.5rem;        
     height: 60px;
-    
   }
 
   .logo {
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding-left: 0.5rem;
-    gap: 10px;      
   }
 
   .nav-handle {
-    gap: 5px;             
-    font-size: 0.6rem;
+    gap: 10px;             
+    font-size: 0.85rem;
   }
 
 }
+
