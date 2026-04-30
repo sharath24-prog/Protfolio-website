@@ -117,6 +117,45 @@ body{
     
 }
 
+/* Main secton starts Here */
+
+.kkr-bg{
+    background: 
+    linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,0.89) 100%),
+    url("kkr.webp");
+
+    height: 1200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.news-button{
+    transform: translateY(-100px);
+    margin: 0px 30px;
+}
+
+.button-expo{
+
+    background-color: rgba(0,0,0,0.8); 
+    border: none;
+    color:#D4AF37;
+    min-width:2.5rem;
+    min-height:1.5rem;
+}
+
+.amulheading span{
+    
+    display: block;
+    color: white;
+    margin-top: 1rem;
+}
+
+
+
 @media (max-width:550px) {
 
   .navbar {
@@ -152,5 +191,27 @@ body{
     width: 100%;
     height: auto;
   }
+
+  /* amul Background */
+
+  .kkr-bg{
+      height: 40vh;              
+    background-size: cover;
+    background-position: top;  
+  }
+
+  .news-button{
+    transform: translateY(0.1px);
+  }
+
+  
+
+  .amulheading span{
+    font-size: 0.85rem;
+    margin-bottom: 1.2rem;
+  }
+
+  
+
 }
 
