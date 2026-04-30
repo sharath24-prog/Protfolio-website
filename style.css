@@ -16,12 +16,16 @@ body{
     align-items: center;
     height:80px;
     background: linear-gradient(180deg, #0F0F1A, #2E0854);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 
 .logo{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.3rem;
+    margin-left: 30px;
 
 }
 
@@ -33,7 +37,8 @@ body{
 .nav-handle {   
     display: flex;
     gap: 15px;
-    font-size: 1.1em;
+    font-size: 1rem;
+    padding-right: 2rem;
 }
 
 .nav-handle a{
@@ -72,17 +77,17 @@ body{
 
 .child-nav{
     height:40px;
-    width: auto;
+    width: 100%;
     background-color: #4a067a;
     display: flex;
     justify-content:space-between;
-    padding: 0px 40px;
 }
 
 .child{
     display: flex;
     color: white;
     margin: 10px 0px;
+    padding: 0px 30px;
 }
 
 
@@ -90,6 +95,7 @@ body{
     display: flex;
     color: white;
     margin: 10px 0px;
+    padding: 0px 30px;
 }
 
 
@@ -98,32 +104,53 @@ body{
 
 .jersey{
     margin: 60px 0px;
+    display: flex;
+    justify-content: center;
+
 }
 
 .jersey img{
+
+    width: 100%;
     height: auto;
-    margin:0px 20px;
-    width: 90%;
+
+    
 }
 
 @media (max-width:550px) {
 
   .navbar {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 1.5rem;        
+    display: flex;    
     height: 60px;
   }
 
   .logo {
-    font-size: 1rem;
-    padding-left: 0.5rem;
+    font-size: 0.45rem;
   }
 
   .nav-handle {
-    gap: 10px;             
     font-size: 0.85rem;
   }
 
+
+  /* nav second */
+
+  .child-nav{
+    width: 100%;
+  }
+
+  .child,.child-2{
+    font-size:0.8rem;
+  }
+
+  /* banner section */
+.jersey{
+    padding: 0 10px;
+}
+
+  .jersey img{
+    width: 100%;
+    height: auto;
+  }
 }
 
