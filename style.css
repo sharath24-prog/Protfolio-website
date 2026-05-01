@@ -8,6 +8,7 @@
 body{
     height: 100vh;
     width: 100%;
+    background: white;
 }
 
 header{
@@ -214,7 +215,7 @@ header{
 }
 
 .charged{
-    font-size: 0.5rem;
+    font-size: 0.59rem;
     padding: 0px 10px;
     color: #761fd3;
     font-weight: 100;
