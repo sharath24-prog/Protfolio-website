@@ -433,12 +433,13 @@ background-color:#b37de8;
 
   .video-container{
     gap: 5px;
-    margin: 0px 10px;
+    margin-left: 20px;
   }
   
   iframe{
     height: 100px;
     width: 100px;
+    
   }
 
 }
