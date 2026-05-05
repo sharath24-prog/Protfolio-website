@@ -514,7 +514,8 @@ background-color:#b37de8;
 
   .sunil{
     height: 20vh;
-    padding-left:2rem;
+    display: block;
+    margin: 0 auto;
   }
 
   .headofhead p{
