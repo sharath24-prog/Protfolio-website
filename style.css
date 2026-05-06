@@ -190,7 +190,7 @@ header{
     margin-left: 0.2rem;
 }
 
-.download {
+#download {
     color: #57148a;
     font-size: 0.55rem;
     box-shadow:5px black;    
