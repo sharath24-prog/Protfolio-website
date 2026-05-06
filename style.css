@@ -432,8 +432,41 @@ background-color:#b37de8;
     background-color: #9e64dd;
     padding: 0px 10px;
 }
+.container{
+    position: fixed;   
+    bottom: 0;         
+    left: 0;
+    width: 100%;
+    border-radius: 10px;
+    
+    height: 3vh;
+    background-color: black;
+    color: white;
+    
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    z-index: 9999;    
+}
 
+.track{
+    display: flex;
+    white-space: nowrap;
+    animation: scroll 10s linear infinite;
+}
 
+.track span{
+    padding-right: 50px;
+}
+
+@keyframes scroll{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-50%);
+    }
+}
 
 
 @media (max-width:550px) {
